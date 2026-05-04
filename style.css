@@ -1,0 +1,275 @@
+body {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.section {
+  padding: 60px 20px;
+}
+
+.bluebaby {
+  background: #9cbaf0;
+  color: black;
+  text-justify: auto;
+  h2 {
+    margin: 20px auto 20px auto;
+    font-size: 2em;
+  }
+  p {
+    width: 85%;
+    margin: 100px auto 20px auto;
+    font-size: 1.35em;
+  }
+}
+
+#titleBaby {
+  width: 40%;
+  font-size: 2em;
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto 50px auto;
+  border-radius: 20px;
+}
+
+.dark {
+  background: #000c3b;
+  color: #fff;
+  h2 {
+    margin: 10px auto 20px auto;
+    font-size: 2em;
+    
+  }
+}
+.darkCTA {
+  padding: 40px 20px;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #000c3b;
+
+  p {
+    font-size: 1.35em;
+    margin: 20px auto 0 auto;
+  }
+  img {
+    width: 40%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+  }
+
+  ul {
+    margin: 50px auto 50px auto;
+    width: 40%;
+  }
+  li {
+    font-size: 1.35em;
+    margin: 20px auto 0 auto;
+    padding: none;
+    list-style: none;
+    text-align: left;
+  }
+}
+
+#titleDark {
+  width: 40%;
+  font-size: 2em;
+  background-color: #9cbaf0;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto 50px auto;
+  color: #000c3b;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+#textDark {
+  width: 40%;
+  font-size: 1.35em;
+  margin: 20px auto 50px auto;
+  color: #fff;
+}
+
+.listDark {
+  font-size: 1.35em;
+  font-weight: 200;
+
+  strong {
+    font-weight: 700;
+  }
+}
+
+.hero {
+  background: url("https://patriciaroberta.com.br/wp-content/uploads/2024/12/bg1.webp")
+    center/cover;
+  color: #fff;
+  padding: 80px 20px;
+  img {
+    width: 40%;
+    display: block;
+    margin: 20px auto;
+  }
+  h1 {
+    margin: 20px 40px 20px 40px;
+    font-size: 2em;
+    color: #f5f4b9;
+  }
+  p {
+    width: 85%;
+    margin: 20px 40px 20px 40px;
+    font-size: 1.5em;
+  }
+}
+
+.btn {
+  background: #0a0b31;
+  color: #fff;
+  padding: 15px 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: 40px;
+  font-size: 1.5em;
+  transition: 0.5s;
+  padding: 1em 2em 1em 2em;
+}
+
+.btn:hover {
+  background: #3352cf;
+}
+
+.btn.white {
+  background: #fff;
+  color: #000;
+}
+
+.btn.white:hover {
+  background: #5577e9;
+}
+
+.btn.green {
+  background: #2add13;
+  color: #000c3b;
+}
+
+.btn.green:hover {
+  background: #16610c;
+  color: #000c3b;
+  box-shadow: 0px 0px 10px #2add13;
+}
+.list {
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+  list-style: none;
+  padding: none;
+}
+#firstItem {
+  margin-top: 90px;
+}
+#textStrong {
+  margin: 50px auto 0 auto;
+  text-align: center;
+  width: 50%;
+}
+.list li {
+  margin: 40px auto 10px auto;
+  font-size: 1.35em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card,
+.box,
+.bonus {
+  background: #fff;
+  color: #000c3b;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.card p,
+.bonus p {
+  font-size: 1.5em;
+  color: #000c3b;
+}
+
+.box {
+  background-color: #000c3b;
+  color: #fff;
+  font-size: 1.5em;
+
+  p {
+    margin-top: 20px;
+  }
+}
+
+.bonus img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+#textSection{
+  width: 40%;
+  font-size: 2em;
+  padding: 10px;
+  color:#000c3b;
+  text-align: center;
+  margin: 0 auto 50px auto;
+  border-radius: 20px;
+}
+
+.imageCTA{
+
+  width: 70%;
+  border-radius: 15px;
+}
+.boxImage {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+#clockPink {
+  width: 73%;
+}
+#divan {
+  width: 90%;
+  margin: 30px auto 40px auto;
+}
+
+.testimonial {
+  background: #0e1c55;
+  color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/* CAROUSEL */
+.carousel {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  margin-bottom: -50px;
+}
+
+.carrouselImage {
+  width: 90%;
+  display: none;
+  border-radius: 30px;
+  align-items: center;
+}
+
+.carousel .carrouselImage.active {
+  display: block;
+}
