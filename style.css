@@ -273,3 +273,104 @@ body {
 .carousel .carrouselImage.active {
   display: block;
 }
+
+
+
+
+@media (max-width: 768px) {
+
+  #titleBaby,
+  #titleDark,
+  #textDark,
+  #textSection {
+    width: 70%;
+    font-size: 1.4em;
+  }
+
+  .hero img,
+  .darkCTA img,
+  .imageCTA {
+    width: 75%;
+  }
+
+  .hero h1 {
+    font-size: 1.5em;
+    margin: 20px ;
+  }
+
+  .bluebaby h2{
+    font-size: 1.5em;
+    margin: 20px ;
+  }
+
+  .testimonial,
+  .card,
+  .box,
+  .bonus,
+  .darkCTA {
+    width:85%;
+  }
+  .boxImage{
+    width: 75%;
+    margin: 20px auto;
+  }
+
+  .hero p,
+  .bluebaby p,
+  .darkCTA p,
+  .darkCTA li {
+    width: 80%;
+    font-size: 1.4em;
+    margin: 20px ;
+  }
+.list li{
+  width: 75%;
+  font-size: 1.3em;
+  margin: 40px;
+}
+  .darkCTA ul {
+    width: 90%;
+  }
+
+  #textStrong {
+    width: 75%;
+  }
+
+  .btn {
+    width: 90%;
+    font-size: 1.5em;
+    padding: 15px;
+  }
+
+  .carousel {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .carrouselImage {
+    width: 80%;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+
+  h1, h2 {
+    font-size: 1.2em;
+  }
+
+  p, li {
+    font-size: 1em;
+  }
+
+  .section {
+    padding: 40px 15px;
+  }
+
+  .btn {
+    font-size: 1em;
+  }
+}
