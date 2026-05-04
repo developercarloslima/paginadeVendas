@@ -45,7 +45,6 @@ body {
   h2 {
     margin: 10px auto 20px auto;
     font-size: 2em;
-    
   }
 }
 .darkCTA {
@@ -220,18 +219,17 @@ body {
   border-radius: 15px;
 }
 
-#textSection{
+#textSection {
   width: 40%;
   font-size: 2em;
   padding: 10px;
-  color:#000c3b;
+  color: #000c3b;
   text-align: center;
   margin: 0 auto 50px auto;
   border-radius: 20px;
 }
 
-.imageCTA{
-
+.imageCTA {
   width: 70%;
   border-radius: 15px;
 }
@@ -274,11 +272,7 @@ body {
   display: block;
 }
 
-
-
-
 @media (max-width: 768px) {
-
   #titleBaby,
   #titleDark,
   #textDark,
@@ -295,12 +289,12 @@ body {
 
   .hero h1 {
     font-size: 1.5em;
-    margin: 20px ;
+    margin: 20px;
   }
 
-  .bluebaby h2{
+  .bluebaby h2 {
     font-size: 1.5em;
-    margin: 20px ;
+    margin: 20px;
   }
 
   .testimonial,
@@ -308,9 +302,9 @@ body {
   .box,
   .bonus,
   .darkCTA {
-    width:85%;
+    width: 85%;
   }
-  .boxImage{
+  .boxImage {
     width: 75%;
     margin: 20px auto;
   }
@@ -321,13 +315,13 @@ body {
   .darkCTA li {
     width: 80%;
     font-size: 1.4em;
-    margin: 20px ;
+    margin: 20px;
   }
-.list li{
-  width: 75%;
-  font-size: 1.3em;
-  margin: 40px;
-}
+  .list li {
+    width: 75%;
+    font-size: 1.3em;
+    margin: 40px;
+  }
   .darkCTA ul {
     width: 90%;
   }
@@ -343,26 +337,27 @@ body {
   }
 
   .carousel {
-    grid-template-columns: 1fr;
-    gap: 20px;
+    display: block;
   }
 
   .carrouselImage {
-    width: 80%;
+    width: 100%;
+    display: none;
   }
 
-  .grid {
-    grid-template-columns: 1fr;
+  .carousel .carrouselImage.active {
+    display: block;
   }
 }
 
 @media (max-width: 480px) {
-
-  h1, h2 {
+  h1,
+  h2 {
     font-size: 1.2em;
   }
 
-  p, li {
+  p,
+  li {
     font-size: 1em;
   }
 
