@@ -127,7 +127,7 @@ body {
   }
 }
 
-.btn {
+.btn, .btn1{
   background: #0a0b31;
   color: #fff;
   padding: 15px 40px;
@@ -141,6 +141,10 @@ body {
 }
 
 .btn:hover {
+  background: #3352cf;
+}
+
+.btn1:hover {
   background: #3352cf;
 }
 
@@ -330,7 +334,7 @@ body {
     width: 75%;
   }
 
-  .btn {
+  .btn, .btn1{
     width: 90%;
     font-size: 1.5em;
     padding: 15px;
