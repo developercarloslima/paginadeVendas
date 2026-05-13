@@ -148,7 +148,8 @@ body {
   background: #3352cf;
 }
 
-.btn.white {
+.btn.white,
+.btn1.white {
   background: #fff;
   color: #000;
 }
