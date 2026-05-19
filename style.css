@@ -152,7 +152,9 @@ body {
 .btn:hover {
   background: #3352cf;
 }
-
+#btnText{
+  margin-bottom:40px;
+}
 .btn1:hover {
   background: #3352cf;
 }
