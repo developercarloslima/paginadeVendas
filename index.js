@@ -30,6 +30,13 @@ window.addEventListener("resize", showSlide);
 /* BOTÃO */
 document.querySelectorAll(".btn").forEach(btn => {
   btn.onclick = () => {
-    window.location.href = "https://pay.cakto.com.br/3fk9ybd_860619";
+    const checkout = new URL("https://pay.cakto.com.br/3fk9ybd_860619");
+    const params = new URLSearchParams(window.location.search);
+
+    params.forEach((value, key) => {
+      checkout.searchParams.set(key, value);
+    });
+
+    window.location.href = checkout.toString();
   };
 });
